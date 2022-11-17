@@ -1,4 +1,4 @@
 python -m venv venv
-venv\Scripts\activate.bat
+CALL venv\Scripts\activate.bat
 pip install -r requirements.txt
-python demo.py
+START cmd
