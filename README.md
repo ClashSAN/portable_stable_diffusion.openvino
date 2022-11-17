@@ -15,13 +15,6 @@ Select sampler(scheduler) and more:
 
     python demo.py --prompt "cow on a hill" --unprompt "trees, people, low quality" --scheduler DDIM --num-inference-steps 8 --seed 5 
 
-## Step 5 
-To fully use offline change the 0 to 1 in: `venv/lib/python3.9/site-packages/transformers/file_utils.py` line 328:
-
-    _is_offline_mode = True if os.environ.get("TRANSFORMERS_OFFLINE", "0").upper() in ENV_VARS_TRUE_VALUES else False
-
-This gets rid of the error when you are not connected to wifi.
-
 ## About
 This repository does two things: It makes the codebase and models portable and offline for use with usb, ssds. It allows DDIM sampler and negative prompts, as taken from [Drake53's repository](https://github.com/Drake53/stable_diffusion.openvino). DDIM sampler often converges at lower steps (8), making image generation alot quicker.
 
