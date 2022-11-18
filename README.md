@@ -28,8 +28,8 @@ This gets rid of the error when you are not connected to wifi.
 This repository does two things: It makes the codebase and models portable and offline for use with usb, ssds. It allows DDIM sampler and negative prompts, as taken from [Drake53's repository](https://github.com/Drake53/stable_diffusion.openvino). DDIM sampler often converges at lower steps (8), making image generation alot quicker.
 
 ## Testing
-This needs 16gb of ram to run smoothly. If you are using 8 gb, you will end up using ROM storage of your hard drive or solid state drive. It is highly discouraged to use (spinning disk)hard drive, tests show 126 seconds per iteration step. 
+This needs 16gb of ram to run smoothly. If you are using 8 gb, you will end up using ROM storage of your hard drive or solid state drive. It is highly discouraged to use (spinning disk)hard drive, tests show 126 seconds per iteration step. For 8 gb ram users: see [this page](https://github.com/ClashSAN/portable_stable_diffusion.openvino/wiki)
 
 ## Credit
-This repository code is from https://github.com/Drake53/stable_diffusion.openvino and is a fork of https://github.com/besdev/stable_diffusion.openvino
+This repository code is from https://github.com/Drake53/stable_diffusion.openvino and is a fork of https://github.com/bes-dev/stable_diffusion.openvino
 
