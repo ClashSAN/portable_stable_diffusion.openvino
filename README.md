@@ -2,7 +2,10 @@
 Download the files all from huggingface and place them into the "local" folder. There are two models available: 
    - https://huggingface.co/bes-dev/stable-diffusion-v1-4-openvino/tree/main
    - https://huggingface.co/ShadowPower/waifu-diffusion.openvino/tree/main
-## Step 2 
+## Step 2
+Extract the zip file and delete the zip file.
+You should have a "venv" folder alongside run.bat and other files.
+## Step 3
 Double click run.bat.
 ## Step 3
 Write a prompt. Enter this in the terminal that pops up as an example:
