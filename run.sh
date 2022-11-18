@@ -1,3 +1,6 @@
 source venv/Scripts/activate
 pip install -r requirements.txt
-python demo.py
+
+# launch terminal. substitute konsole with your preference
+konsole
+
