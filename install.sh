@@ -3,6 +3,5 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# launch terminal. substitute konsole with your preference
-konsole
+# to begin, type "source venv/bin/activate" then you can enter the prompt command in the readme.
 
