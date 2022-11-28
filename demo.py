@@ -26,6 +26,8 @@ def main(args):
                 beta_start=args.beta_start,
                 beta_end=args.beta_end,
                 beta_schedule=args.beta_schedule,
+                clip_sample=False,
+                set_alpha_to_one=False,
                 tensor_format="np"
             )
         else:
